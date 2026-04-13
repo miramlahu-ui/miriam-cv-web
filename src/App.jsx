@@ -636,6 +636,10 @@ export default function PaginaPersonal() {
                   <div className="mt-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-slate-900/70 text-2xl">
                     📜
                   </div>
+                )} : (
+                  <div className="mt-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-slate-900/70 text-2xl">
+                    📜
+                  </div>
                 )
                 <h3 className="mt-5 text-lg font-semibold leading-7 text-white">{item.title}</h3>
                 <p className="mt-2 text-cyan-300">{item.issuer}</p>
