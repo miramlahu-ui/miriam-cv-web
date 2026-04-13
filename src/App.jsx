@@ -12,7 +12,25 @@ const profile = {
   availability: "Disponible para nuevas oportunidades y proyectos",
 };
 
-const profilePhoto = "data:image/jpeg;base64,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";
+const profilePhoto =
+  "data:image/svg+xml;utf8," +
+  encodeURIComponent(`
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+    <defs>
+      <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="#0f172a" />
+        <stop offset="100%" stop-color="#1e293b" />
+      </linearGradient>
+    </defs>
+    <rect width="600" height="700" fill="url(#bg)" rx="32" />
+    <circle cx="300" cy="250" r="110" fill="#22d3ee" opacity="0.18" />
+    <circle cx="300" cy="220" r="70" fill="#cbd5e1" opacity="0.9" />
+    <path d="M180 510c22-84 96-126 120-126s98 42 120 126" fill="#cbd5e1" opacity="0.9" />
+    <text x="300" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#e2e8f0">
+      Miriam Lampa
+    </text>
+  </svg>
+`);
 
 const highlights = [
   "Seguridad, Salud Ocupacional y Medio Ambiente (SSOMA)",
@@ -62,28 +80,138 @@ const experience = [
     company: "Consorcio PTAP Calana",
     role: "Especialista Ambiental",
     period: "Oct 2021 - Jul 2024",
-    location: "Tacna, Perú",
+    location: "Calana, Tacna, Perú",
+    projectLink:
+      "https://ofi5.mef.gob.pe/invierteWS/Repseguim/ResumF12B?codigo=2167692",
+    projectLinkLabel: "Ver ficha pública del proyecto",
     description:
-      "Proyecto de construcción y equipamiento de una nueva planta de tratamiento de agua potable en Calana.",
+      "Construcción y equipamiento de una nueva Planta de Tratamiento de Agua Potable de Calana (CUI N.º 2167692).",
     achievements: [
       "Gestión ambiental alineada al expediente técnico y requerimientos del cliente.",
-      "Implementación de acciones preventivas, correctivas y de mitigación.",
+      "Implementación de acciones preventivas, correctivas y de mitigación durante la etapa constructiva.",
       "Elaboración y ejecución de procedimientos, formatos e informes de gestión ambiental.",
       "Monitoreo de objetivos, riesgos e impactos durante la ejecución de obra.",
     ],
   },
   {
-    company: "Consorcio Aguas de Manchay",$1summary:
-      "Proyecto de saneamiento orientado a ampliar los sistemas de agua potable y alcantarillado en la Quebrada de Manchay, con participación directa en la gestión ambiental durante la ejecución de obra.",
-    link:
+    company: "Consorcio Aguas de Manchay",
+    role: "Especialista Ambiental",
+    period: "Feb 2020 - Sep 2021",
+    location: "Pachacámac, Lima, Perú",
+    projectLink:
       "https://ofi5.mef.gob.pe/invierte/ejecucion/verFichaEjecucionHistorico/2302266/2/1",
-    linkLabel: "Ver ficha pública del proyecto",
-    functions: [
+    projectLinkLabel: "Ver ficha pública del proyecto",
+    description:
+      "Ampliación de los sistemas de agua potable y alcantarillado de la Quebrada de Manchay - 3ra Etapa (CUI N.º 2302266).",
+    achievements: [
       "Ejecución de la gestión ambiental de obra de acuerdo con los estándares de la organización y la normativa aplicable.",
       "Identificación de operaciones, actividades, impactos y medidas de control para asegurar el cumplimiento ambiental del proyecto.",
       "Implementación de acciones correctivas y preventivas en materia ambiental durante la etapa constructiva.",
       "Elaboración y ejecución de procedimientos, formatos e informes de gestión ambiental solicitados por el cliente y el sistema integrado de gestión.",
       "Participación en auditorías, capacitaciones y simulacros para fortalecer el desempeño ambiental y el cumplimiento de buenas prácticas.",
+    ],
+  },
+  {
+    company: "MEJESA S.R.L.",
+    role: "Especialista en Seguridad y Monitoreo Ambiental",
+    period: "Ene 2020 - Jul 2020",
+    location: "Lima, Perú",
+    description:
+      "Recuperación de redes secundarias y conexiones domiciliarias de agua potable en Jesús María.",
+    achievements: [
+      "Investigación de accidentes y propuesta de medidas preventivas.",
+      "Auditorías internas e inspecciones de áreas de trabajo.",
+      "Preparación, ejecución y evaluación de simulacros.",
+    ],
+  },
+  {
+    company: "Consorcio Los Olivos",
+    role: "Ingeniero del Sistema Integrado de Gestión",
+    period: "Oct 2018 - Jun 2019",
+    location: "Lima, Perú",
+    description:
+      "Instalación complementaria de redes secundarias y conexiones domiciliarias de agua potable y alcantarillado.",
+    achievements: [
+      "Seguimiento a indicadores y tableros de control del SIG.",
+      "Coordinación con líderes de proceso en calidad, seguridad, salud y medio ambiente.",
+      "Ejecución y seguimiento de auditorías internas y acciones correctivas.",
+    ],
+  },
+];
+
+const featuredProjects = [
+  {
+    title:
+      "Mejoramiento y Ampliación de los sistemas de agua potable, alcantarillado y tratamiento de aguas residuales para el Esquema José Gálvez Sector 315 y Esquema Villa Alejandro - Etapa 2",
+    company: "Constructora MPM S.A.C.",
+    role: "Especialista Ambiental",
+    period: "Desde agosto 2024",
+    location: "Villa María del Triunfo y Lurín, Lima, Perú",
+    contract: "Contrato N.º 010-2024/VIVIENDA/VMCS/PASLC",
+    cui: "CUI N.º 2403503",
+    amount: "S/ 236,335,663.26",
+    milestone1: "Entrega de terreno: 22/08/2024",
+    milestone2: "Inicio de ejecución contractual: 23/08/2024",
+    summary:
+      "Proyecto de gran escala orientado al mejoramiento y ampliación de sistemas de agua potable, alcantarillado y tratamiento de aguas residuales en Lima.",
+    link:
+      "https://ofi5.mef.gob.pe/inviertews/Repseguim/ResumF12B?codigo=2403503&utm_source=chatgpt.com",
+    linkLabel: "Ver ficha pública del proyecto",
+    functions: [
+      "Supervisión del cumplimiento ambiental de obra conforme al instrumento de gestión ambiental, la normativa vigente y los compromisos contractuales del proyecto.",
+      "Implementación y seguimiento del Plan de Manejo Ambiental durante la ejecución.",
+      "Elaboración de informes, registros y reportes técnicos ambientales.",
+      "Coordinación con supervisión, contratista y actores clave para asegurar el cumplimiento ambiental.",
+    ],
+  },
+  {
+    title:
+      "Construcción y equipamiento de una nueva Planta de Tratamiento de Agua Potable de Calana",
+    company: "Consorcio PTAP Calana",
+    role: "Especialista Ambiental",
+    period: "Oct 2021 - Jul 2024",
+    location: "Calana, Tacna, Perú",
+    contract: "Obra de PTAP Calana",
+    cui: "CUI N.º 2167692",
+    amount: "S/ 65,340,933.34",
+    milestone1: "Componentes: captación y línea de conducción",
+    milestone2:
+      "PTAP, edificio administrativo, equipamiento hidráulico, electromecánico y laboratorio",
+    summary:
+      "Proyecto de infraestructura de agua potable que incluyó componentes hidráulicos, eléctricos, automatización y laboratorio.",
+    link: "https://ofi5.mef.gob.pe/invierteWS/Repseguim/ResumF12B?codigo=2167692",
+    linkLabel: "Ver ficha pública del proyecto",
+    functions: [
+      "Supervisión del cumplimiento ambiental de obra conforme al instrumento ambiental aprobado y a los estándares de la organización.",
+      "Implementación de acciones preventivas, correctivas y de mitigación frente a impactos ambientales.",
+      "Monitoreo de riesgos, controles e indicadores ambientales durante la etapa constructiva.",
+      "Elaboración y ejecución de procedimientos, formatos e informes técnicos vinculados a la gestión ambiental.",
+    ],
+  },
+  {
+    title:
+      "Ampliación de los sistemas de agua potable y alcantarillado de la Quebrada de Manchay - 3era Etapa",
+    company: "Consorcio Aguas de Manchay",
+    role: "Especialista Ambiental",
+    period: "Feb 2020 - Sep 2021",
+    location: "Pachacámac, Lima, Perú",
+    contract: "Proyecto de ampliación de sistemas de agua potable y alcantarillado",
+    cui: "CUI N.º 2302266",
+    amount: "S/ 36,541,113.63",
+    milestone1:
+      "Obras civiles, estructuras, equipamiento hidráulico, líneas de agua potable y alcantarillado",
+    milestone2:
+      "Redes y conexiones, monitoreo arqueológico e intervención social",
+    summary:
+      "Proyecto de saneamiento orientado a ampliar los sistemas de agua potable y alcantarillado en la Quebrada de Manchay.",
+    link:
+      "https://ofi5.mef.gob.pe/invierte/ejecucion/verFichaEjecucionHistorico/2302266/2/1",
+    linkLabel: "Ver ficha pública del proyecto",
+    functions: [
+      "Ejecución de la gestión ambiental de obra conforme a estándares de la organización y normativa aplicable.",
+      "Identificación de operaciones, actividades, impactos y medidas de control.",
+      "Implementación de acciones correctivas y preventivas en materia ambiental.",
+      "Participación en auditorías, capacitaciones y simulacros para fortalecer el desempeño ambiental.",
     ],
   },
 ];
@@ -125,18 +253,6 @@ const certificateGallery = [
     detail: "Aplicación al sistema integrado de gestión",
     tag: "Diplomado",
   },
-  {
-    title: "Gestión de Recursos Hídricos",
-    issuer: "ADECI / CIA - Lima",
-    detail: "Especialización",
-    tag: "Especialización",
-  },
-  {
-    title: "Remediación de Pasivos Ambientales",
-    issuer: "ADECI / CIA - Lima",
-    detail: "Especialización",
-    tag: "Especialización",
-  },
 ];
 
 const keyAchievements = [
@@ -162,7 +278,8 @@ const education = [
   {
     institution: "Universidad Alas Peruanas",
     degree: "Ingeniería Ambiental",
-    detail: "Bachiller en Ingeniería Ambiental (2014) · Título profesional (2015)",
+    detail:
+      "Bachiller en Ingeniería Ambiental (2014) · Título profesional (2015)",
   },
   {
     institution: "Universidad Técnica de Oruro - Bolivia",
@@ -170,7 +287,8 @@ const education = [
     detail: "Graduada",
   },
   {
-    institution: "Università degli Studi Mediterranea di Reggio Calabria - Italia",
+    institution:
+      "Università degli Studi Mediterranea di Reggio Calabria - Italia",
     degree: "Master Universitario in Business Administration",
     detail: "Graduada",
   },
@@ -205,16 +323,79 @@ const languages = ["Español nativo", "Inglés intermedio"];
 
 function validateData() {
   const checks = [
-    typeof profile.name === "string" && profile.name.length > 0,
-    typeof profile.title === "string" && profile.title.length > 0,
-    Array.isArray(experience) && experience.length >= 5,
-    Array.isArray(education) && education.length >= 3,
-    Array.isArray(certifications) && certifications.length >= 3,
-    Array.isArray(tools) && tools.length >= 3,
+    {
+      name: "profile.name",
+      pass: typeof profile.name === "string" && profile.name.length > 0,
+    },
+    {
+      name: "profile.title",
+      pass: typeof profile.title === "string" && profile.title.length > 0,
+    },
+    {
+      name: "experience array",
+      pass: Array.isArray(experience) && experience.length >= 3,
+    },
+    {
+      name: "education array",
+      pass: Array.isArray(education) && education.length >= 3,
+    },
+    {
+      name: "certifications array",
+      pass: Array.isArray(certifications) && certifications.length >= 3,
+    },
+    {
+      name: "tools array",
+      pass: Array.isArray(tools) && tools.length >= 3,
+    },
+    {
+      name: "featuredProjects array",
+      pass: Array.isArray(featuredProjects) && featuredProjects.length >= 1,
+    },
+    {
+      name: "certificateGallery array",
+      pass:
+        Array.isArray(certificateGallery) && certificateGallery.length >= 2,
+    },
+    {
+      name: "experience entries complete",
+      pass: experience.every(
+        (item) =>
+          typeof item.company === "string" &&
+          item.company.length > 0 &&
+          typeof item.role === "string" &&
+          item.role.length > 0 &&
+          typeof item.period === "string" &&
+          item.period.length > 0 &&
+          typeof item.location === "string" &&
+          item.location.length > 0 &&
+          typeof item.description === "string" &&
+          item.description.length > 0 &&
+          Array.isArray(item.achievements)
+      ),
+    },
+    {
+      name: "certificate entries complete",
+      pass: certificateGallery.every(
+        (item) =>
+          typeof item.title === "string" &&
+          item.title.length > 0 &&
+          typeof item.issuer === "string" &&
+          item.issuer.length > 0 &&
+          typeof item.detail === "string" &&
+          item.detail.length > 0 &&
+          typeof item.tag === "string" &&
+          item.tag.length > 0
+      ),
+    },
   ];
 
-  if (checks.includes(false)) {
-    throw new Error("Faltan datos importantes en el CV digital.");
+  const failed = checks.filter((check) => !check.pass);
+  if (failed.length > 0) {
+    throw new Error(
+      `Faltan datos importantes en el CV digital: ${failed
+        .map((check) => check.name)
+        .join(", ")}.`
+    );
   }
 }
 
@@ -226,8 +407,12 @@ function SectionTitle({ eyebrow, title, subtitle }) {
       <p className="mb-2 text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300">
         {eyebrow}
       </p>
-      <h2 className="text-2xl font-bold tracking-tight text-white md:text-3xl">{title}</h2>
-      {subtitle ? <p className="mt-3 max-w-3xl text-slate-300">{subtitle}</p> : null}
+      <h2 className="text-2xl font-bold tracking-tight text-white md:text-3xl">
+        {title}
+      </h2>
+      {subtitle ? (
+        <p className="mt-3 max-w-3xl text-slate-300">{subtitle}</p>
+      ) : null}
     </div>
   );
 }
@@ -248,8 +433,12 @@ function ContactItem({ label, value, href }) {
       rel={href?.startsWith("http") ? "noreferrer" : undefined}
       className="block rounded-2xl border border-white/10 bg-slate-900/70 p-4 transition hover:bg-slate-900"
     >
-      <div className="text-xs uppercase tracking-[0.2em] text-slate-400">{label}</div>
-      <div className="mt-1 text-sm font-medium text-white md:text-base">{value}</div>
+      <div className="text-xs uppercase tracking-[0.2em] text-slate-400">
+        {label}
+      </div>
+      <div className="mt-1 text-sm font-medium text-white md:text-base">
+        {value}
+      </div>
     </a>
   );
 }
@@ -308,6 +497,97 @@ function SimpleCard({ title, items }) {
   );
 }
 
+function ProjectCard({ project }) {
+  return (
+    <div className="rounded-[2rem] border border-white/10 bg-gradient-to-br from-cyan-500/10 via-white/5 to-fuchsia-500/10 p-8 shadow-2xl transition hover:-translate-y-1 hover:shadow-cyan-500/10">
+      <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
+        <div>
+          <div className="inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm text-cyan-200">
+            {project.role}
+          </div>
+          <h3 className="mt-5 text-2xl font-bold leading-tight text-white md:text-3xl">
+            {project.title}
+          </h3>
+          <p className="mt-4 text-base leading-8 text-slate-300">
+            {project.summary}
+          </p>
+
+          <details className="mt-6 rounded-[1.5rem] border border-white/10 bg-slate-950/30 p-4 open:bg-slate-950/40">
+            <summary className="cursor-pointer list-none text-sm font-medium text-cyan-200 transition hover:text-cyan-100">
+              Ver más detalles del proyecto
+            </summary>
+
+            <div className="mt-5 grid gap-3">
+              <div className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-3 text-sm text-slate-200">
+                <span className="font-semibold text-white">Empresa:</span>{" "}
+                {project.company}
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-3 text-sm text-slate-200">
+                <span className="font-semibold text-white">Ubicación:</span>{" "}
+                {project.location}
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-3 text-sm text-slate-200">
+                <span className="font-semibold text-white">Contrato:</span>{" "}
+                {project.contract}
+              </div>
+            </div>
+
+            <div className="mt-5 grid gap-3">
+              {project.functions.map((fn) => (
+                <div
+                  key={fn}
+                  className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-3 text-sm leading-6 text-slate-200"
+                >
+                  {fn}
+                </div>
+              ))}
+            </div>
+          </details>
+        </div>
+
+        <div className="grid gap-4">
+          <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/50 p-5">
+            <div className="text-xs uppercase tracking-[0.2em] text-slate-400">
+              📅 Periodo
+            </div>
+            <div className="mt-2 text-lg font-semibold text-white">
+              {project.period}
+            </div>
+          </div>
+          <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/50 p-5">
+            <div className="text-xs uppercase tracking-[0.2em] text-slate-400">
+              🧾 Código de inversión
+            </div>
+            <div className="mt-2 text-lg font-semibold text-white">
+              {project.cui}
+            </div>
+          </div>
+          <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/50 p-5">
+            <div className="text-xs uppercase tracking-[0.2em] text-slate-400">
+              💰 Monto contractual
+            </div>
+            <div className="mt-2 text-lg font-semibold text-white">
+              {project.amount}
+            </div>
+          </div>
+          <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/50 p-5 text-sm leading-7 text-slate-200">
+            <div>{project.milestone1}</div>
+            <div>{project.milestone2}</div>
+          </div>
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center justify-center rounded-2xl border border-cyan-400/30 bg-cyan-400/10 px-5 py-4 text-sm font-medium text-cyan-200 transition hover:bg-cyan-400/20"
+          >
+            {project.linkLabel}
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function PaginaPersonal() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
@@ -320,7 +600,9 @@ export default function PaginaPersonal() {
       <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div>
-            <div className="text-lg font-semibold tracking-tight text-white">{profile.name}</div>
+            <div className="text-lg font-semibold tracking-tight text-white">
+              {profile.name}
+            </div>
             <div className="text-sm text-slate-400">CV Digital Profesional</div>
           </div>
 
@@ -346,7 +628,9 @@ export default function PaginaPersonal() {
               <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight text-white md:text-6xl">
                 {profile.name}
               </h1>
-              <p className="mt-4 text-xl text-cyan-300 md:text-2xl">{profile.title}</p>
+              <p className="mt-4 text-xl text-cyan-300 md:text-2xl">
+                {profile.title}
+              </p>
               <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 md:text-lg">
                 {profile.subtitle}
               </p>
@@ -355,48 +639,49 @@ export default function PaginaPersonal() {
                 <Pill>{profile.location}</Pill>
                 <Pill>{profile.cip}</Pill>
                 <Pill>Sector construcción</Pill>
-                <Pill>SSOMA & SIG</Pill>
+                <Pill>SSOMA &amp; SIG</Pill>
               </div>
 
               <div className="mt-8 flex flex-wrap gap-3">
-                <a
-                  href="#proyectos"
-                  className="inline-flex items-center justify-center rounded-2xl border border-cyan-400/30 bg-cyan-400/10 px-5 py-3 text-sm font-medium text-cyan-200 transition hover:bg-cyan-400/20"
-                >
+                <a href="#proyectos" className="inline-flex items-center justify-center rounded-2xl border border-cyan-400/30 bg-cyan-400/10 px-5 py-3 text-sm font-medium text-cyan-200 transition hover:bg-cyan-400/20">
                   Ver proyectos destacados
                 </a>
-                <a
-                  href="#contacto"
-                  className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-medium text-white transition hover:bg-white/10"
-                >
+                <a href="#contacto" className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-medium text-white transition hover:bg-white/10">
                   Ir a contacto
                 </a>
-                <a
-                  href={profile.linkedin}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-slate-900/70 px-5 py-3 text-sm font-medium text-slate-200 transition hover:bg-slate-900"
-                >
+                <a href={profile.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-slate-900/70 px-5 py-3 text-sm font-medium text-slate-200 transition hover:bg-slate-900">
                   Ver LinkedIn
                 </a>
               </div>
 
               <div className="mt-8 grid gap-4 md:grid-cols-3">
-                <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/40 p-4">
-                  <div className="text-xs uppercase tracking-[0.2em] text-slate-400">Trayectoria</div>
-                  <div className="mt-2 text-lg font-semibold text-white">Desde 2016</div>
-                  <div className="mt-1 text-sm text-slate-300">Experiencia en gestión ambiental y SSOMA en proyectos de construcción.</div>
-                </div>
-                <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/40 p-4">
-                  <div className="text-xs uppercase tracking-[0.2em] text-slate-400">Especialidad</div>
-                  <div className="mt-2 text-lg font-semibold text-white">Gestión ambiental</div>
-                  <div className="mt-1 text-sm text-slate-300">Supervisión ambiental, reportes técnicos, control de impactos y cumplimiento.</div>
-                </div>
-                <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/40 p-4">
-                  <div className="text-xs uppercase tracking-[0.2em] text-slate-400">Cobertura</div>
-                  <div className="mt-2 text-lg font-semibold text-white">Lima · Tacna · Puno</div>
-                  <div className="mt-1 text-sm text-slate-300">Participación en proyectos de agua potable, alcantarillado y saneamiento.</div>
-                </div>
+                {[
+                  {
+                    label: "Trayectoria",
+                    value: "Desde 2016",
+                    text: "Experiencia en gestión ambiental y SSOMA en proyectos de construcción.",
+                  },
+                  {
+                    label: "Especialidad",
+                    value: "Gestión ambiental",
+                    text: "Supervisión ambiental, reportes técnicos, control de impactos y cumplimiento.",
+                  },
+                  {
+                    label: "Cobertura",
+                    value: "Lima · Tacna · Puno",
+                    text: "Participación en proyectos de agua potable, alcantarillado y saneamiento.",
+                  },
+                ].map((card) => (
+                  <div key={card.label} className="rounded-[1.5rem] border border-white/10 bg-slate-950/40 p-4">
+                    <div className="text-xs uppercase tracking-[0.2em] text-slate-400">
+                      {card.label}
+                    </div>
+                    <div className="mt-2 text-lg font-semibold text-white">
+                      {card.value}
+                    </div>
+                    <div className="mt-1 text-sm text-slate-300">{card.text}</div>
+                  </div>
+                ))}
               </div>
             </div>
 
@@ -432,10 +717,7 @@ export default function PaginaPersonal() {
               <h3 className="mb-5 text-xl font-semibold text-white">Fortalezas principales</h3>
               <div className="grid gap-3 md:grid-cols-2">
                 {highlights.map((item) => (
-                  <div
-                    key={item}
-                    className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-4 text-sm leading-6 text-slate-200"
-                  >
+                  <div key={item} className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-4 text-sm leading-6 text-slate-200">
                     {item}
                   </div>
                 ))}
@@ -455,10 +737,7 @@ export default function PaginaPersonal() {
 
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {keyAchievements.map((item) => (
-              <div
-                key={item.title}
-                className="rounded-[1.75rem] border border-white/10 bg-gradient-to-br from-white/8 to-white/5 p-6 shadow-lg transition hover:-translate-y-1"
-              >
+              <div key={item.title} className="rounded-[1.75rem] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-6 shadow-lg transition hover:-translate-y-1">
                 <div className="mb-4 inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/10 px-3 py-1 text-xs uppercase tracking-[0.2em] text-cyan-200">
                   ✨ Destacado
                 </div>
@@ -486,86 +765,13 @@ export default function PaginaPersonal() {
         <section id="proyectos" className="mx-auto max-w-6xl px-6 py-12 md:py-16">
           <SectionTitle
             eyebrow="Proyectos destacados"
-            title="Proyecto actual"
-            subtitle="Una sección más visual para que quien visite tu página entienda rápidamente el tipo de obra en la que participas, su alcance y tu rol profesional."
+            title="Proyectos clave"
+            subtitle="Una sección visual para entender rápidamente el tipo de obras en las que has participado, su alcance y tu rol profesional."
           />
 
           <div className="grid gap-6">
             {featuredProjects.map((project) => (
-              <div
-                key={project.title}
-                className="rounded-[2rem] border border-white/10 bg-gradient-to-br from-cyan-500/10 via-white/5 to-fuchsia-500/10 p-8 shadow-2xl transition hover:-translate-y-1 hover:shadow-cyan-500/10"
-              >
-                <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
-                  <div>
-                    <div className="inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm text-cyan-200">
-                      {project.role}
-                    </div>
-                    <h3 className="mt-5 text-2xl font-bold leading-tight text-white md:text-3xl">
-                      {project.title}
-                    </h3>
-                    <p className="mt-4 text-base leading-8 text-slate-300">{project.summary}</p>
-
-                    <details className="mt-6 rounded-[1.5rem] border border-white/10 bg-slate-950/30 p-4 open:bg-slate-950/40">
-                      <summary className="cursor-pointer list-none text-sm font-medium text-cyan-200 transition hover:text-cyan-100">
-                        Ver más detalles del proyecto
-                      </summary>
-
-                      <div className="mt-5 grid gap-3">
-                        <div className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-3 text-sm text-slate-200">
-                          <span className="font-semibold text-white">Empresa:</span> {project.company}
-                        </div>
-                        <div className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-3 text-sm text-slate-200">
-                          <span className="font-semibold text-white">Ubicación:</span> {project.location}
-                        </div>
-                        <div className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-3 text-sm text-slate-200">
-                          <span className="font-semibold text-white">Contrato:</span> {project.contract}
-                        </div>
-                      </div>
-
-                      {project.functions ? (
-                        <div className="mt-5 grid gap-3">
-                          {project.functions.map((fn) => (
-                            <div
-                              key={fn}
-                              className="rounded-2xl border border-white/10 bg-slate-950/40 px-4 py-3 text-sm leading-6 text-slate-200"
-                            >
-                              {fn}
-                            </div>
-                          ))}
-                        </div>
-                      ) : null}
-                    </details>
-                  </div>
-
-                  <div className="grid gap-4">
-                    <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/50 p-5">
-                      <div className="text-xs uppercase tracking-[0.2em] text-slate-400">📅 Periodo</div>
-                      <div className="mt-2 text-lg font-semibold text-white">{project.period}</div>
-                    </div>
-                    <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/50 p-5">
-                      <div className="text-xs uppercase tracking-[0.2em] text-slate-400">🧾 Código de inversión</div>
-                      <div className="mt-2 text-lg font-semibold text-white">{project.cui}</div>
-                    </div>
-                    <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/50 p-5">
-                      <div className="text-xs uppercase tracking-[0.2em] text-slate-400">💰 Monto contractual</div>
-                      <div className="mt-2 text-lg font-semibold text-white">{project.amount}</div>
-                    </div>
-                    <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/50 p-5 text-sm leading-7 text-slate-200">
-                      <div>{project.milestone1}</div>
-                      <div>{project.milestone2}</div>
-                    </div>
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-flex items-center justify-center rounded-2xl border border-cyan-400/30 bg-cyan-400/10 px-5 py-4 text-sm font-medium text-cyan-200 transition hover:bg-cyan-400/20"
-                    >
-                      {project.linkLabel}
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <ProjectCard key={project.title} project={project} />
             ))}
           </div>
         </section>
@@ -613,20 +819,13 @@ export default function PaginaPersonal() {
 
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
             {certificateGallery.map((item) => (
-              <div
-                key={`${item.title}-${item.issuer}`}
-                className="rounded-[1.75rem] border border-white/10 bg-gradient-to-br from-white/8 to-white/5 p-6 shadow-lg transition hover:-translate-y-1"
-              >
+              <div key={`${item.title}-${item.issuer}`} className="rounded-[1.75rem] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-6 shadow-lg transition hover:-translate-y-1">
                 <div className="inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/10 px-3 py-1 text-xs uppercase tracking-[0.2em] text-cyan-200">
                   {item.tag}
                 </div>
                 <div className="mt-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-slate-900/70 text-2xl">
                   📜
-                </div> : (
-                  <div className="mt-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-slate-900/70 text-2xl">
-                    📜
-                  </div>
-                )
+                </div>
                 <h3 className="mt-5 text-lg font-semibold leading-7 text-white">{item.title}</h3>
                 <p className="mt-2 text-cyan-300">{item.issuer}</p>
                 <p className="mt-3 text-sm leading-7 text-slate-300">{item.detail}</p>
